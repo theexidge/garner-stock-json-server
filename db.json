@@ -9059,5 +9059,46 @@
           "TimeZone": "US",
           "TimeInterval": "5 min"
         }
+    ],
+    "Holdings":[
+      {
+          "email":"test@gmail.com",
+          "stocks":{
+            "name": ["Amazon","Flipkart"],
+            "count":["2","4"],
+            "valueofone":["$200","$400"]
+          }
+      }
+    ],
+    "Wallet":[
+      {
+          "email":"test@gmail.com",
+          "balance":"$140300.65",
+          "invested":"$80405.69",
+          "topstock":{
+            "name":"NVIDIA",
+            "iValue":"$25.69",
+            "cvalue":"$169.69"
+          }
+      }
+    ],
+    "Transaction":[
+      {
+          "email":"test@gmail.com",
+          "type":["sell","buy"],
+          "details":[{
+            "name":"Flipkart",
+            "count":"2",
+            "costforone":"$550"
+          },
+          {
+            "name":"NVIDIA",
+            "count":"2",
+            "costforone":"$50"            
+          }
+        ]
+          
+      }
     ]
 }
+
