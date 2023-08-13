@@ -9062,39 +9062,113 @@
     ],
     "Holdings":[
       {
-          "email":"test@gmail.com",
-          "stocks":{
-            "name": ["Amazon","Flipkart"],
-            "count":["2","4"],
-            "valueofone":["$200","$400"]
+      "email":"test@gmail.com",
+      "virtual":[
+        {
+          "stocks":[{
+            "name": "Amazon",
+            "count":2,
+            "valueofone": 200
+          },
+          {
+            "name":"Flipkart",
+            "count": 3,
+            "valueofone": 400
+          }
+         ]
+      } 
+    
+    ],
+      "real":[
+        {
+          "stocks":[{
+            "name": "Amazon",
+            "count":2,
+            "valueofone": 200
+          },
+          {
+            "name":"Flipkart",
+            "count": 3,
+            "valueofone": 400
+          }
+         ]
+      } 
+    
+    ]
+
+  }
+],
+    "Wallet":[
+    {
+      "email":"test@gmail.com",
+      "real":[
+      {
+          "balance":40300.65,
+          "invested":80405.69,
+          "topstock":{
+            "name":"NVIDIA",
+            "iValue":25.69,
+            "cvalue":169.69
           }
       }
     ],
-    "Wallet":[
+      "virtual":[
       {
-          "email":"test@gmail.com",
-          "balance":"$140300.65",
-          "invested":"$80405.69",
-          "topstock":{
-            "name":"NVIDIA",
-            "iValue":"$25.69",
-            "cvalue":"$169.69"
-          }
+        "balance":40300.65,
+        "invested":80405.69,
+        "topstock":{
+        "name":"NVIDIA",
+        "iValue":25.69,
+        "cvalue":169.69 
+        }
       }
+    ]
+    }
     ],
     "Transaction":[
       {
           "email":"test@gmail.com",
-          "type":["sell","buy"],
           "details":[{
+            "type":"buy",
             "name":"Flipkart",
-            "count":"2",
-            "costforone":"$550"
+            "count":2,
+            "costforone":550
           },
           {
+            "type":"sell",
             "name":"NVIDIA",
-            "count":"2",
-            "costforone":"$50"            
+            "count":2,
+            "costforone":550           
+          },
+          {
+            "type":"sell",
+            "name":"Apple",
+            "count":6,
+            "costforone":500           
+          },
+          {
+            "type":"buy",
+            "name":"Samsung",
+            "count":2,
+            "costforone":400          
+          },
+          {
+            "type":"sell",
+            "name":"Nothing",
+            "count":2,
+            "costforone":450           
+          },
+          {
+            "type":"buy",
+            "name":"Reliance",
+            "count":2,
+            "costforone":200           
+          },
+          {
+            "type":"sell",
+            "name":"tata",
+            "count":2,
+            "costforone":350           
           }
         ]
           
