@@ -9065,13 +9065,29 @@
       "email":"test@gmail.com",
       "virtual":[
         {
-          "stocks":[{
+          "stocks":[
+          {
             "name": "Amazon",
             "count":2,
             "valueofone": 200
           },
           {
             "name":"Flipkart",
+            "count": 3,
+            "valueofone": 400
+          },
+          {
+            "name":"Apple",
+            "count": 3,
+            "valueofone": 450
+          },
+          {
+            "name":"Tesla",
+            "count": 3,
+            "valueofone": 400
+          },
+          {
+            "name":"Reliance",
             "count": 3,
             "valueofone": 400
           }
@@ -9088,6 +9104,21 @@
           },
           {
             "name":"Flipkart",
+            "count": 3,
+            "valueofone": 400
+          },
+          {
+            "name":"Apple",
+            "count": 3,
+            "valueofone": 450
+          },
+          {
+            "name":"Tesla",
+            "count": 3,
+            "valueofone": 400
+          },
+          {
+            "name":"Reliance",
             "count": 3,
             "valueofone": 400
           }
@@ -9113,8 +9144,9 @@
       }
     ],
       "virtual":[
-      {
-        "balance":40300.65,
+      { 
+        "intialcurrency":40000000,
+        "balance":40300.6,
         "invested":80405.69,
         "topstock":{
         "name":"NVIDIA",
@@ -9128,7 +9160,8 @@
     "Transaction":[
       {
           "email":"test@gmail.com",
-          "details":[{
+          "details":[
+          {
             "type":"buy",
             "name":"Flipkart",
             "count":2,
