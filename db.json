@@ -9066,30 +9066,119 @@
       "virtual":[
         {
           "stocks":[
-          {
-            "name": "Amazon",
+          { 
+            "Name": "Amazon.com",
+            "Symbol": "AMZN",
             "count":2,
-            "valueofone": 200
+            "buyprice": 200
           },
           {
-            "name":"Flipkart",
+            "Name": "Apple Inc",
+            "Symbol": "AAPL",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
           },
           {
-            "name":"Apple",
+            "Name": "Accenture Plc",
+            "Symbol": "ACN",
             "count": 3,
-            "valueofone": 450
+            "buyprice": 450
           },
           {
-            "name":"Tesla",
+            "Name": "Airbnb, Inc",
+            "Symbol": "ABNB",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
           },
           {
-            "name":"Reliance",
+            "Name": "Broadcom Inc",
+            "Symbol": "AVGO",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
+          },
+          {
+            "Name": "AztraZeneca Plc",
+            "Symbol": "AZN",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Bookings Holdings Inc",
+            "Symbol": "BKNG",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cadence Design Systems Inc",
+            "Symbol": "CDNS",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cisco Systems, Inc",
+            "Symbol": "CSCO",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cognizant Technology Solutions Corporation",
+            "Symbol": "CTSH",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Dollar Tree Inc",
+            "Symbol": "DLTR",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Electronic Arts Inc",
+            "Symbol": "EA",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "eBay Inc",
+            "Symbol": "EBAY",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Alphabet Inc",
+            "Symbol": "GOOG",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Netflix, Inc",
+            "Symbol": "NFLX",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "NVIDIA Corporation",
+            "Symbol": "NVDA",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Qualcomm Inc",
+            "Symbol": "QCOM",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "T-Mobile US Inc",
+            "Symbol": "TMUS",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Walgreens Boots Alliance Inc",
+            "Symbol": "WBA",
+            "count": 3,
+            "buyprice": 400
           }
          ]
       } 
@@ -9097,30 +9186,120 @@
     ],
       "real":[
         {
-          "stocks":[{
-            "name": "Amazon",
+          "stocks":[
+          { 
+            "Name": "Amazon.com",
+            "Symbol": "AMZN",
             "count":2,
-            "valueofone": 200
+            "buyprice": 200
           },
           {
-            "name":"Flipkart",
+            "Name": "Apple Inc",
+            "Symbol": "AAPL",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
           },
           {
-            "name":"Apple",
+            "Name": "Accenture Plc",
+            "Symbol": "ACN",
             "count": 3,
-            "valueofone": 450
+            "buyprice": 450
           },
           {
-            "name":"Tesla",
+            "Name": "Airbnb, Inc",
+            "Symbol": "ABNB",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
           },
           {
-            "name":"Reliance",
+            "Name": "Broadcom Inc",
+            "Symbol": "AVGO",
             "count": 3,
-            "valueofone": 400
+            "buyprice": 400
+          },
+          {
+            "Name": "AztraZeneca Plc",
+            "Symbol": "AZN",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Bookings Holdings Inc",
+            "Symbol": "BKNG",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cadence Design Systems Inc",
+            "Symbol": "CDNS",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cisco Systems, Inc",
+            "Symbol": "CSCO",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Cognizant Technology Solutions Corporation",
+            "Symbol": "CTSH",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Dollar Tree Inc",
+            "Symbol": "DLTR",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Electronic Arts Inc",
+            "Symbol": "EA",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "eBay Inc",
+            "Symbol": "EBAY",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Alphabet Inc",
+            "Symbol": "GOOG",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Netflix, Inc",
+            "Symbol": "NFLX",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "NVIDIA Corporation",
+            "Symbol": "NVDA",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Qualcomm Inc",
+            "Symbol": "QCOM",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "T-Mobile US Inc",
+            "Symbol": "TMUS",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "Name": "Walgreens Boots Alliance Inc",
+            "Symbol": "WBA",
+            "count": 3,
+            "buyprice": 400
           }
          ]
       } 
@@ -9137,7 +9316,7 @@
           "balance":40300.65,
           "invested":80405.69,
           "topstock":{
-            "name":"NVIDIA",
+            "Symbol":"NFLX",
             "iValue":25.69,
             "cvalue":169.69
           }
@@ -9149,7 +9328,7 @@
         "balance":40300.6,
         "invested":80405.69,
         "topstock":{
-        "name":"NVIDIA",
+        "Symbol":"NFLX",
         "iValue":25.69,
         "cvalue":169.69 
         }
@@ -9163,43 +9342,43 @@
           "details":[
           {
             "type":"buy",
-            "name":"Flipkart",
+            "Symbol":"AMZN",
             "count":2,
             "costforone":550
           },
           {
             "type":"sell",
-            "name":"NVIDIA",
+            "Symbol":"NVDA",
             "count":2,
             "costforone":550           
           },
           {
             "type":"sell",
-            "name":"Apple",
+            "Symbol":"AAPL",
             "count":6,
             "costforone":500           
           },
           {
             "type":"buy",
-            "name":"Samsung",
+            "Symbol":"ACN",
             "count":2,
             "costforone":400          
           },
           {
             "type":"sell",
-            "name":"Nothing",
+            "Symbol":"WBA",
             "count":2,
             "costforone":450           
           },
           {
             "type":"buy",
-            "name":"Reliance",
+            "Symbol":"TMUS",
             "count":2,
             "costforone":200           
           },
           {
             "type":"sell",
-            "name":"tata",
+            "Symbol":"NFLX",
             "count":2,
             "costforone":350           
           }
