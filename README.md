@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="garner.png" alt="Image Description" width="300">
+  <img src="/Images/garner.png" alt="Image Description" width="300">
 </p>
 
 # Welcome to the Garner Project     
