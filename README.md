@@ -79,6 +79,47 @@ We prioritize your safety. Our parental control features let parents manage thei
 
 ![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/638da378-6995-4e66-bac1-9183e3e5b585)
 
+## JSON Server Details
+
+This is the summary of the server details without the specific values:
+
+### Users
+
+- **fName**: First name of the user.
+- **lName**: Last name of the user.
+- **email**: Email address of the user.
+- **age**: Age of the user.
+- **parentEmail**: Parent's email address (if applicable).
+- **role**: Role of the user (e.g., student, admin).
+- **maxLimit**: Maximum limit for user transactions.
+- **wallet**:
+  - **currency**: Amount of currency in the user's wallet.
+  - **virtualcurrency**: Amount of virtual currency in the user's wallet.
+
+### Stocks
+
+- **Name**: Name of the stock.
+- **Symbol**: Stock symbol.
+- **TimeZone**: Timezone of the stock market.
+- **TimeInterval**: Time interval for stock data updates.
+- **TimeSeries** (9:35 AM):
+  - **Open**: Opening price of the stock.
+  - **Close**: Closing price of the stock.
+  - **High**: Highest price of the stock.
+  - **Low**: Lowest price of the stock.
+
+#### Stock 2 (Replace with Actual Stock Name)
+
+- **Name**: Name of the stock.
+- **Symbol**: Stock symbol.
+- **TimeZone**: Timezone of the stock market.
+- **TimeInterval**: Time interval for stock data updates.
+- **TimeSeries** (9:35 AM):
+  - **Open**: Opening price of the stock.
+  - **Close**: Closing price of the stock.
+  - **High**: Highest price of the stock.
+  - **Low**: Lowest price of the stock.
+
 ## Contributing
 
 We welcome contributions from all individuals who share our vision for financial education. If you're interested in contributing to the Garner Project, please refer to our [Contributing Guidelines](CONTRIBUTING.md) for more information.
