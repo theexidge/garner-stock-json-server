@@ -9124,7 +9124,7 @@
             "buyprice": 400
           },
           {
-            "email": "madarchod@gmail.com",
+            "email": "test1@gmail.com",
             "name": "Airbnb, Inc",
             "symbol": "ABNB",
             "count": 3,
@@ -9159,43 +9159,43 @@
     "transaction": [
         {
           "type": "buy",
-          "Symbol": "AMZN",
+          "symbol": "AMZN",
           "count": 2,
           "costforone": 550
         },
         {
           "type": "sell",
-          "Symbol": "NVDA",
+          "symbol": "NVDA",
           "count": 2,
           "costforone": 550
         },
         {
           "type": "sell",
-          "Symbol": "AAPL",
+          "symbol": "AAPL",
           "count": 6,
           "costforone": 500
         },
         {
           "type": "buy",
-          "Symbol": "ACN",
+          "symbol": "ACN",
           "count": 2,
           "costforone": 400
         },
         {
           "type": "sell",
-          "Symbol": "WBA",
+          "symbol": "WBA",
           "count": 2,
           "costforone": 450
         },
         {
           "type": "buy",
-          "Symbol": "TMUS",
+          "symbol": "TMUS",
           "count": 2,
           "costforone": 200
         },
         {
           "type": "sell",
-          "Symbol": "NFLX",
+          "symbol": "NFLX",
           "count": 2,
           "costforone": 350
         }
