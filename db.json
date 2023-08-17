@@ -9057,143 +9057,94 @@
         }
     ],    
     
-    "holdings": [
-      {
-        "id": "test@gmail.com",
-        "stocks": [
+    "vholdings": [
           {
+            "email": "test@gmail.com",
             "name": "Amazon.com",
             "symbol": "AMZN",
             "count": 2,
             "buyprice": 200
           },
           {
+            "email": "test@gmail.com",
             "name": "Apple Inc",
             "symbol": "AAPL",
             "count": 3,
             "buyprice": 400
           },
           {
+            "email": "test@gmail.com",
             "name": "Accenture Plc",
             "symbol": "ACN",
             "count": 3,
             "buyprice": 450
           },
           {
+            "email": "test@gmail.com",
             "name": "Airbnb, Inc",
             "symbol": "ABNB",
             "count": 3,
             "buyprice": 400
           },
           {
-            "name": "Broadcom Inc",
-            "symbol": "AVGO",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "AztraZeneca Plc",
-            "symbol": "AZN",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Bookings Holdings Inc",
-            "symbol": "BKNG",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cadence Design Systems Inc",
-            "symbol": "CDNS",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cisco Systems, Inc",
-            "symbol": "CSCO",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cognizant Technology Solutions Corporation",
-            "symbol": "CTSH",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Dollar Tree Inc",
-            "symbol": "DLTR",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Electronic Arts Inc",
-            "symbol": "EA",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "eBay Inc",
-            "symbol": "EBAY",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Alphabet Inc",
-            "symbol": "GOOG",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Netflix, Inc",
-            "symbol": "NFLX",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "NVIDIA Corporation",
-            "symbol": "NVDA",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Qualcomm Inc",
-            "symbol": "QCOM",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "T-Mobile US Inc",
-            "symbol": "TMUS",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Walgreens Boots Alliance Inc",
-            "symbol": "WBA",
+            "email": "test1@gmail.com",
+            "name": "Airbnb, Inc",
+            "symbol": "ABNB",
             "count": 3,
             "buyprice": 400
           }
-        ]
-      }
-    ],
+      ],
+    "rholdings": [
+          {
+            "email": "test@gmail.com",
+            "name": "Amazon.com",
+            "symbol": "AMZN",
+            "count": 2,
+            "buyprice": 200
+          },
+          {
+            "email": "test@gmail.com",
+            "name": "Apple Inc",
+            "symbol": "AAPL",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "email": "test@gmail.com",
+            "name": "Accenture Plc",
+            "symbol": "ACN",
+            "count": 3,
+            "buyprice": 450
+          },
+          {
+            "email": "test@gmail.com",
+            "name": "Airbnb, Inc",
+            "symbol": "ABNB",
+            "count": 3,
+            "buyprice": 400
+          },
+          {
+            "email": "madarchod@gmail.com",
+            "name": "Airbnb, Inc",
+            "symbol": "ABNB",
+            "count": 3,
+            "buyprice": 400
+          }
+      ],
     
-    "wallet":[
+    "realwallet":[
     {
       "id":"test@gmail.com",
-      "real":[
-      {
-          "balance":40300.65,
-          "invested":80405.69,
-          "topstock":{
+      "balance":403000.65,
+      "invested":80405.69,
+      "topstock":{
             "symbol":"NFLX",
             "iValue":25.69,
             "cvalue":169.69
           }
-      }
+    }
     ],
-      "virtual":[
+      "virtualwallet":[
       { 
         "intialcurrency":40000000,
         "balance":40300.6,
@@ -9204,8 +9155,6 @@
         "cvalue":169.69 
         }
       }
-    ]
-    }
     ],
     "transaction": [
         {
