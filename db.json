@@ -483,7 +483,7 @@
             }
           },
           "name": "Amazon.com",
-          "Symbol": "AMZN",
+          "symbol": "AMZN",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -959,7 +959,7 @@
             }
           },
           "name": "Apple Inc",
-          "Symbol": "AAPL",
+          "symbol": "AAPL",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -1435,7 +1435,7 @@
             }
           },
           "name": "Accenture Plc",
-          "Symbol": "ACN",
+          "symbol": "ACN",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -1911,7 +1911,7 @@
             }
           },
           "name": "Airbnb, Inc",
-          "Symbol": "ABNB",
+          "symbol": "ABNB",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -2387,7 +2387,7 @@
             }
           },
           "name": "Broadcom Inc",
-          "Symbol": "AVGO",
+          "symbol": "AVGO",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -2863,7 +2863,7 @@
             }
           },
           "name": "AztraZeneca Plc",
-          "Symbol": "AZN",
+          "symbol": "AZN",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -3339,7 +3339,7 @@
             }
           },
           "name": "Bookings Holdings Inc",
-          "Symbol": "BKNG",
+          "symbol": "BKNG",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -3815,7 +3815,7 @@
             }
           },
           "name": "Cadence Design Systems Inc",
-          "Symbol": "CDNS",
+          "symbol": "CDNS",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -4291,7 +4291,7 @@
             }
           },
           "name": "Cisco Systems, Inc",
-          "Symbol": "CSCO",
+          "symbol": "CSCO",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -4767,7 +4767,7 @@
             }
           },
           "name": "Cognizant Technology Solutions Corporation",
-          "Symbol": "CTSH",
+          "symbol": "CTSH",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -5243,7 +5243,7 @@
             }
           },
           "name": "Dollar Tree Inc",
-          "Symbol": "DLTR",
+          "symbol": "DLTR",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -5719,7 +5719,7 @@
             }
           },
           "name": "Electronic Arts Inc",
-          "Symbol": "EA",
+          "symbol": "EA",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -6195,7 +6195,7 @@
             }
           },
           "name": "eBay Inc",
-          "Symbol": "EBAY",
+          "symbol": "EBAY",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -6671,7 +6671,7 @@
             }
           },
           "name": "Alphabet Inc",
-          "Symbol": "GOOG",
+          "symbol": "GOOG",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -7147,7 +7147,7 @@
             }
           },
           "name": "Netflix, Inc",
-          "Symbol": "NFLX",
+          "symbol": "NFLX",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -7623,7 +7623,7 @@
             }
           },
           "name": "NVIDIA Corporation",
-          "Symbol": "NVDA",
+          "symbol": "NVDA",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -8099,7 +8099,7 @@
             }
           },
           "name": "Qualcomm Inc",
-          "Symbol": "QCOM",
+          "symbol": "QCOM",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -8575,7 +8575,7 @@
             }
           },
           "name": "T-Mobile US Inc",
-          "Symbol": "TMUS",
+          "symbol": "TMUS",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         },
@@ -9051,259 +9051,134 @@
             }
           },
           "name": "Walgreens Boots Alliance Inc",
-          "Symbol": "WBA",
+          "symbol": "WBA",
           "TimeZone": "US",
           "TimeInterval": "5 min"
         }
-    ],
-    "holdings":[
+    ],    
+    
+    "holdings": [
       {
-      "id":"test@gmail.com",
-      "virtual":[
-        {
-          "stocks":[
-          { 
+        "id": "test@gmail.com",
+        "stocks": [
+          {
             "name": "Amazon.com",
-            "Symbol": "AMZN",
-            "count":2,
+            "symbol": "AMZN",
+            "count": 2,
             "buyprice": 200
           },
           {
             "name": "Apple Inc",
-            "Symbol": "AAPL",
+            "symbol": "AAPL",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Accenture Plc",
-            "Symbol": "ACN",
+            "symbol": "ACN",
             "count": 3,
             "buyprice": 450
           },
           {
             "name": "Airbnb, Inc",
-            "Symbol": "ABNB",
+            "symbol": "ABNB",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Broadcom Inc",
-            "Symbol": "AVGO",
+            "symbol": "AVGO",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "AztraZeneca Plc",
-            "Symbol": "AZN",
+            "symbol": "AZN",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Bookings Holdings Inc",
-            "Symbol": "BKNG",
+            "symbol": "BKNG",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Cadence Design Systems Inc",
-            "Symbol": "CDNS",
+            "symbol": "CDNS",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Cisco Systems, Inc",
-            "Symbol": "CSCO",
+            "symbol": "CSCO",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Cognizant Technology Solutions Corporation",
-            "Symbol": "CTSH",
+            "symbol": "CTSH",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Dollar Tree Inc",
-            "Symbol": "DLTR",
+            "symbol": "DLTR",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Electronic Arts Inc",
-            "Symbol": "EA",
+            "symbol": "EA",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "eBay Inc",
-            "Symbol": "EBAY",
+            "symbol": "EBAY",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Alphabet Inc",
-            "Symbol": "GOOG",
+            "symbol": "GOOG",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Netflix, Inc",
-            "Symbol": "NFLX",
+            "symbol": "NFLX",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "NVIDIA Corporation",
-            "Symbol": "NVDA",
+            "symbol": "NVDA",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Qualcomm Inc",
-            "Symbol": "QCOM",
+            "symbol": "QCOM",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "T-Mobile US Inc",
-            "Symbol": "TMUS",
+            "symbol": "TMUS",
             "count": 3,
             "buyprice": 400
           },
           {
             "name": "Walgreens Boots Alliance Inc",
-            "Symbol": "WBA",
+            "symbol": "WBA",
             "count": 3,
             "buyprice": 400
           }
-         ]
-      } 
-    
+        ]
+      }
     ],
-      "real":[
-        {
-          "stocks":[
-          { 
-            "name": "Amazon.com",
-            "Symbol": "AMZN",
-            "count":2,
-            "buyprice": 200
-          },
-          {
-            "name": "Apple Inc",
-            "Symbol": "AAPL",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Accenture Plc",
-            "Symbol": "ACN",
-            "count": 3,
-            "buyprice": 450
-          },
-          {
-            "name": "Airbnb, Inc",
-            "Symbol": "ABNB",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Broadcom Inc",
-            "Symbol": "AVGO",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "AztraZeneca Plc",
-            "Symbol": "AZN",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Bookings Holdings Inc",
-            "Symbol": "BKNG",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cadence Design Systems Inc",
-            "Symbol": "CDNS",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cisco Systems, Inc",
-            "Symbol": "CSCO",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Cognizant Technology Solutions Corporation",
-            "Symbol": "CTSH",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Dollar Tree Inc",
-            "Symbol": "DLTR",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Electronic Arts Inc",
-            "Symbol": "EA",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "eBay Inc",
-            "Symbol": "EBAY",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Alphabet Inc",
-            "Symbol": "GOOG",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Netflix, Inc",
-            "Symbol": "NFLX",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "NVIDIA Corporation",
-            "Symbol": "NVDA",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Qualcomm Inc",
-            "Symbol": "QCOM",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "T-Mobile US Inc",
-            "Symbol": "TMUS",
-            "count": 3,
-            "buyprice": 400
-          },
-          {
-            "name": "Walgreens Boots Alliance Inc",
-            "Symbol": "WBA",
-            "count": 3,
-            "buyprice": 400
-          }
-         ]
-      } 
     
-    ]
-
-  }
-],
     "wallet":[
     {
       "id":"test@gmail.com",
@@ -9312,7 +9187,7 @@
           "balance":40300.65,
           "invested":80405.69,
           "topstock":{
-            "Symbol":"NFLX",
+            "symbol":"NFLX",
             "iValue":25.69,
             "cvalue":169.69
           }
@@ -9324,7 +9199,7 @@
         "balance":40300.6,
         "invested":80405.69,
         "topstock":{
-        "Symbol":"NFLX",
+        "symbol":"NFLX",
         "iValue":25.69,
         "cvalue":169.69 
         }
@@ -9332,55 +9207,51 @@
     ]
     }
     ],
-    "transaction":[
-      {
-          "id":"test@gmail.com",
-          "details":[
-          {
-            "type":"buy",
-            "Symbol":"AMZN",
-            "count":2,
-            "costforone":550
-          },
-          {
-            "type":"sell",
-            "Symbol":"NVDA",
-            "count":2,
-            "costforone":550           
-          },
-          {
-            "type":"sell",
-            "Symbol":"AAPL",
-            "count":6,
-            "costforone":500           
-          },
-          {
-            "type":"buy",
-            "Symbol":"ACN",
-            "count":2,
-            "costforone":400          
-          },
-          {
-            "type":"sell",
-            "Symbol":"WBA",
-            "count":2,
-            "costforone":450           
-          },
-          {
-            "type":"buy",
-            "Symbol":"TMUS",
-            "count":2,
-            "costforone":200           
-          },
-          {
-            "type":"sell",
-            "Symbol":"NFLX",
-            "count":2,
-            "costforone":350           
-          }
-        ]
-          
-      }
-    ]
+    "transaction": [
+        {
+          "type": "buy",
+          "Symbol": "AMZN",
+          "count": 2,
+          "costforone": 550
+        },
+        {
+          "type": "sell",
+          "Symbol": "NVDA",
+          "count": 2,
+          "costforone": 550
+        },
+        {
+          "type": "sell",
+          "Symbol": "AAPL",
+          "count": 6,
+          "costforone": 500
+        },
+        {
+          "type": "buy",
+          "Symbol": "ACN",
+          "count": 2,
+          "costforone": 400
+        },
+        {
+          "type": "sell",
+          "Symbol": "WBA",
+          "count": 2,
+          "costforone": 450
+        },
+        {
+          "type": "buy",
+          "Symbol": "TMUS",
+          "count": 2,
+          "costforone": 200
+        },
+        {
+          "type": "sell",
+          "Symbol": "NFLX",
+          "count": 2,
+          "costforone": 350
+        }
+      ]
 }
+    
+
 
