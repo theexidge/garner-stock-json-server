@@ -55,29 +55,34 @@ To get started with the Garner Project, simply follow these steps:
 5. Use the platform's stock trading simulator to practice your skills.
 6. Make informed decisions and start your journey in the stock market.
 
+
 ## User Interface
 
 Our user interface is designed with simplicity in mind. Navigating through various sections of the platform is a breeze, allowing you to focus on learning and making informed decisions.
 
-![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/e229dc41-7f09-472c-a9c3-9d4d0492e725)
+![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/de608dc4-3b61-4d53-823e-e7aa4abfacbf)
+
 
 ## Real-time Mentoring
 
 Connect with experienced mentors in real-time. Learn from their insights, get answers to your questions, and receive guidance on your investment journey.
 
-![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/119c530b-8f07-44dc-951e-c4097273411d)
+![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/24d8b4e2-e7d8-43d7-bb40-e02330c61e6f)
+
 
 ## Educational Content
 
 Explore a vast library of educational content, including articles, videos, and interactive tools. Build a strong foundation in financial literacy and trading strategies.
 
-![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/e0c716a4-4722-4fdd-afe1-7c046cd8e5ab)
+![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/65c13849-ab24-4415-aaf0-5d47ce0a31fc)
+
 
 ## Parental Controls
 
 We prioritize your safety. Our parental control features let parents manage their child's experience while fostering independent learning.
 
-![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/638da378-6995-4e66-bac1-9183e3e5b585)
+![image](https://github.com/theexidge/garner-stock-json-server/assets/81246801/f15128ca-3640-41f0-bebe-1942360d4c3b)
+
 
 ## JSON Server Details
 
