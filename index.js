@@ -86,7 +86,7 @@ server.post("/buystock", (req, res) => {
 
 server.post("/squareoff", (req, res) => {
   console.log(req.body);
-  const { id, type, email, sellPrice: sellprice } = req.body;
+  const { id, type, email, sellprice: sellprice } = req.body;
   let holdingObj = null;
   let index = null;
   let balanceObj = null;
@@ -145,8 +145,8 @@ server.post("/signup", (req,res) => {
       age: age,
       password: password,
       role: role,
-      parentEmail: "",
-      childEmail: "",
+      parentemail: "",
+      childemail: "",
       maxLimit: 99999999,
     };
     data["users"].push(userData);
@@ -166,7 +166,7 @@ server.post("/signup", (req,res) => {
       recentstock: {},
       recentfive: []
     });
-
+    fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
     res.status(201).json({ success: true, error: null, data: userData });
   }
 });
@@ -176,7 +176,8 @@ server.post("/login", (req,res) => {
   let check = data["users"].find((item) => item.email === email);
   if(check){
     if(check.password == password){
-      res.status(200).json({success: true, error: "User Already exists", data: check});
+      
+      res.status(200).json({success: true, error: null, data: check});
     }
     else{
       res.status(400).json({ success: false, error: "Wrong Password" });
@@ -185,21 +186,23 @@ server.post("/login", (req,res) => {
   else{
     res.status(400).json({ success: false, error: "User Doesn't exist" });
   }
+
+  
 });
 
 server.patch("/setparent", (req,res) => {
-  const {email, parentEmail} = req.body;
+  const {email, parentemail: parentemail} = req.body;
   try {
     let childObj = data["users"].find((item) => item.email === email);
-    let parentObj = data["users"].find((item) => item.email === parentEmail);
-  
-    childObj.parentEmail = parentEmail;
-    parentObj.childEmail = childEmail;
+    let parentObj = data["users"].find((item) => item.email === parentemail);
+    childObj.parentemail = parentemail;
+    parentObj.childemail = email;
   
     fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
     res.status(200).json({ success: true, error: null, data: "Modified Successfully" });
   } catch (error) {
     res.status(500).json({ success: false, error: "Internal Server Error" });
+    console.log(error);
   }
 })
 server.use(router);
