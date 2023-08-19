@@ -5,7 +5,7 @@
       "fname": "Kanishk",
       "lname": "Sharma",
       "age": 20,
-      "childEmail":"",
+      "childEmail": "",
       "parentEmail": "abc@gmail.com",
       "role": "parent",
       "maxLimit": 5000,
@@ -9098,6 +9098,32 @@
       "symbol": "AMZN",
       "count": 2,
       "buyprice": 200
+    },
+    {
+      "id": "53fdf331-d99d-407a-bdaf-5e086a64ed58",
+      "email": "test@gmail.com",
+      "name": "Amazon.com",
+      "symbol": "AMZN",
+      "count": 2,
+      "buyprice": 200
+    },
+    {
+      "id": "fbb49e76-2620-4980-ad73-e4f6e7a5ef42",
+      "email": "test@gmail.com",
+      "name": "Amazon.com",
+      "symbol": "AMZN",
+      "count": 2,
+      "buyprice": 200,
+      "kind": "buy"
+    },
+    {
+      "id": "4320d301-b209-4a73-9296-54f851bedb2b",
+      "email": "test@gmail.com",
+      "name": "Amazon.com",
+      "symbol": "AMZN",
+      "count": 2,
+      "buyprice": 200,
+      "kind": "buy"
     }
   ],
   "rholdings": [
@@ -9150,7 +9176,7 @@
     {
       "id": "test@gmail.com",
       "intialcurrency": 40000000,
-      "balance": 40300.6,
+      "balance": 4800,
       "invested": 80405.69,
       "recentstock": {
         "symbol": "NFLX",
@@ -9161,53 +9187,22 @@
   ],
   "transaction": [
     {
-      "id": "test@gmail.com",
-      "type": "buy",
+      "id": "fbb49e76-2620-4980-ad73-e4f6e7a5ef42",
+      "kind": "buy",
       "symbol": "AMZN",
+      "name": "Amazon.com",
       "count": 2,
-      "costforone": 550
+      "buyprice": 200,
+      "email": "test@gmail.com"
     },
     {
-      "id": "test@gmail.com",
-      "type": "sell",
-      "symbol": "NVDA",
+      "id": "4320d301-b209-4a73-9296-54f851bedb2b",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
       "count": 2,
-      "costforone": 550
-    },
-    {
-      "id": "test@gmail.com",
-      "type": "sell",
-      "symbol": "AAPL",
-      "count": 6,
-      "costforone": 500
-    },
-    {
-      "id": "test@gmail.com",
-      "type": "buy",
-      "symbol": "ACN",
-      "count": 2,
-      "costforone": 400
-    },
-    {
-      "id": "test@gmail.com",
-      "type": "sell",
-      "symbol": "WBA",
-      "count": 2,
-      "costforone": 450
-    },
-    {
-      "id": "test@gmail.com",
-      "type": "buy",
-      "symbol": "TMUS",
-      "count": 2,
-      "costforone": 200
-    },
-    {
-      "id": "test@gmail.com",
-      "type": "sell",
-      "symbol": "NFLX",
-      "count": 2,
-      "costforone": 350
+      "buyprice": 200,
+      "email": "test@gmail.com"
     }
   ]
 }

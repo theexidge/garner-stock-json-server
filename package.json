@@ -4,7 +4,7 @@
   "description": "<p align=\"center\">\r   <img src=\"/Images/garner.png\" alt=\"Image Description\" width=\"300\">\r </p>",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/theexidge/garner-stock-json-server#readme",
   "dependencies": {
-    "json-server": "^0.17.3"
+    "json-server": "^0.17.3",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.0"
   }
 }
