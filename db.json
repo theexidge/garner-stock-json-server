@@ -2,6 +2,7 @@
   "users": [
     {
       "id": "test@gmail.com",
+      "email": "test@gmail.com",
       "fname": "Kanishk",
       "lname": "Sharma",
       "age": 20,
@@ -9058,7 +9059,17 @@
       "TimeInterval": "5 min"
     }
   ],
-  "vholdings": [],
+  "vholdings": [
+    {
+      "id": "5061f25c-869e-431b-8bee-a5cc525e9d0a",
+      "email": "test@gmail.com",
+      "name": "Amazon.com",
+      "symbol": "AMZN",
+      "count": 2,
+      "buyprice": 200,
+      "kind": "buy"
+    }
+  ],
   "rholdings": [],
   "realwallet": [
     {
@@ -9072,8 +9083,8 @@
   "virtualwallet": [
     {
       "id": "test@gmail.com",
-      "balance": 10200,
-      "invested": 0,
+      "balance": 10000,
+      "invested": 400,
       "recentstock": {
         "symbol": "AMZN",
         "buyprice": 200,
@@ -9085,6 +9096,20 @@
           "symbol": "AMZN",
           "buyprice": 200,
           "id": "a082837e-e233-4842-92bb-03a4d09d90e3",
+          "count": 2,
+          "total": 400
+        },
+        {
+          "symbol": "AMZN",
+          "buyprice": 200,
+          "id": "f652a93e-867d-427f-b278-dc6eb78c47a4",
+          "count": 2,
+          "total": 400
+        },
+        {
+          "symbol": "AMZN",
+          "buyprice": 200,
+          "id": "5061f25c-869e-431b-8bee-a5cc525e9d0a",
           "count": 2,
           "total": 400
         }
@@ -9111,6 +9136,36 @@
       "sellprice": 300,
       "email": "test@gmail.com",
       "event": "userselling"
+    },
+    {
+      "id": "f652a93e-867d-427f-b278-dc6eb78c47a4",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
+      "count": 2,
+      "buyprice": 200,
+      "email": "test@gmail.com",
+      "event": "userbuying"
+    },
+    {
+      "id": "b532b628-3bf6-4956-a030-e38e2ca147ea",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
+      "count": 2,
+      "sellprice": 300,
+      "email": "test@gmail.com",
+      "event": "userselling"
+    },
+    {
+      "id": "5061f25c-869e-431b-8bee-a5cc525e9d0a",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
+      "count": 2,
+      "buyprice": 200,
+      "email": "test@gmail.com",
+      "event": "userbuying"
     }
   ]
 }
