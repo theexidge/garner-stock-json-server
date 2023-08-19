@@ -25,7 +25,10 @@ server.post("/buystock", (req, res) => {
   }
   if (balance < buyprice * count) {
     res.status(401).json({ success: false, error: "Not Enough Money" });
-  } else {
+  } 
+  else if(buyprice * count > (data["users"].find((item) => item.email === email)).maxLimit){
+    res.status(401).json({ success: false, error: "Max Limit Exceeded" });
+  }else {
     balanceObj.balance -= buyprice * count;
     balanceObj.invested += buyprice * count;
     balanceObj.recentstock = {
