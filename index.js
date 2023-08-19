@@ -57,10 +57,55 @@ server.post("/buystock", (req, res) => {
       count: count,
       buyprice: buyprice,
       email: email,
+      event: "userbuying",
     });
     fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
     res.status(200).json({ success: true, error: null });
   }
+});
+
+server.post("/squareoff", (req, res) => {
+  console.log(req.body);
+  const { id, type, email, sellPrice } = req.body;
+  let holdingObj = null;
+  let index = null;
+  let balanceObj = null;
+  if (type == "virtual") {
+    holdingObj = data["vholdings"].find((item) => item.id === id);
+    index = data["vholdings"].indexOf(holdingObj);
+  } else {
+    holdingObj = data["rholdings"].indexOf(
+      data["rholdings"].find((item) => item.id === id)
+    );
+    index = data["rholdings"].indexOf(holdingObj);
+  }
+
+  if (type == "virtual") {
+    balanceObj = data["virtualwallet"].find((item) => item.id === email);
+    balanceObj.balance += (holdingObj.kind == "buy" ? sellPrice - holdingObj.buyprice : holdingObj.buyprice -sellPrice);
+    if (index > -1) {
+      data["vholdings"].splice(index, 1);
+    }
+  } else {
+    balanceObj = data["realwallet"].find((item) => item.id === email);
+    balanceObj.balance += (holdingObj.kind == "buy" ? sellPrice - holdingObj.buyprice : holdingObj.buyprice -sellPrice);
+    if (index > -1) {
+      data["rholdings"].splice(index, 1);
+    }
+  }
+
+  data["transaction"].push({
+    id: uuidv4(),
+    kind: holdingObj.kind,
+    symbol: holdingObj.symbol,
+    name: holdingObj.name,
+    count: holdingObj.count,
+    buyprice: holdingObj.buyprice,
+    email: holdingObj.email,
+    event: "userselling",
+  });
+  fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
+  res.status(200).json({ success: true, error: null });
 });
 server.use(router);
 
