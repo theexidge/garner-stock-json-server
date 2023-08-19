@@ -36,7 +36,8 @@ server.post("/buystock", (req, res) => {
           symbol: symbol,
           buyprice: buyprice,
           count: count,
-          total: buyprice * count
+          total: buyprice * count,
+          timestamp: Date.now()
       };
       if(balanceObj.recentfive.length == 5){
           balanceObj.recentfive.splice(0, 1);
@@ -85,6 +86,7 @@ server.post("/buystock", (req, res) => {
     }
   } catch (error) {
     res.status(500).json({ success: false, error: error });
+    console.log(error);
   }
 });
 
