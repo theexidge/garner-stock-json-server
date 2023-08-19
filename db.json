@@ -9058,151 +9058,59 @@
       "TimeInterval": "5 min"
     }
   ],
-  "vholdings": [
-    {
-      "id": "bewxw23",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200
-    },
-    {
-      "id": "28e3289d",
-      "email": "test@gmail.com",
-      "name": "Apple Inc",
-      "symbol": "AAPL",
-      "count": 3,
-      "buyprice": 400
-    },
-    {
-      "id": "21eu283d",
-      "email": "test@gmail.com",
-      "name": "Accenture Plc",
-      "symbol": "ACN",
-      "count": 3,
-      "buyprice": 450
-    },
-    {
-      "id": "1323ede2",
-      "email": "test@gmail.com",
-      "name": "Airbnb, Inc",
-      "symbol": "ABNB",
-      "count": 3,
-      "buyprice": 400
-    },
-    {
-      "id": "wawex2",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200
-    },
-    {
-      "id": "53fdf331-d99d-407a-bdaf-5e086a64ed58",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200
-    },
-    {
-      "id": "fbb49e76-2620-4980-ad73-e4f6e7a5ef42",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200,
-      "kind": "buy"
-    },
-    {
-      "id": "4320d301-b209-4a73-9296-54f851bedb2b",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200,
-      "kind": "buy"
-    }
-  ],
-  "rholdings": [
-    {
-      "id": "x1sewxe",
-      "email": "test@gmail.com",
-      "name": "Amazon.com",
-      "symbol": "AMZN",
-      "count": 2,
-      "buyprice": 200
-    },
-    {
-      "id": "12sewx23",
-      "email": "test@gmail.com",
-      "name": "Apple Inc",
-      "symbol": "AAPL",
-      "count": 3,
-      "buyprice": 400
-    },
-    {
-      "id": "13dcx12",
-      "email": "test@gmail.com",
-      "name": "Airbnb, Inc",
-      "symbol": "ABNB",
-      "count": 3,
-      "buyprice": 400
-    },
-    {
-      "id": "x2edx1",
-      "email": "test@gmail.com",
-      "name": "Airbnb, Inc",
-      "symbol": "ABNB",
-      "count": 3,
-      "buyprice": 400
-    }
-  ],
+  "vholdings": [],
+  "rholdings": [],
   "realwallet": [
     {
-      "id": "ws13s233",
-      "balance": 403000.65,
-      "invested": 80405.69,
-      "recentstock": {
-        "symbol": "NFLX",
-        "iValue": 25.69,
-        "cvalue": 169.69
-      }
+      "id": "test@gmail.com",
+      "balance": 0,
+      "invested": 0,
+      "recentstock": {},
+      "recentfive": []
     }
   ],
   "virtualwallet": [
     {
       "id": "test@gmail.com",
-      "intialcurrency": 40000000,
-      "balance": 4800,
-      "invested": 80405.69,
+      "balance": 10200,
+      "invested": 0,
       "recentstock": {
-        "symbol": "NFLX",
-        "iValue": 25.69,
-        "cvalue": 169.69
-      }
+        "symbol": "AMZN",
+        "buyprice": 200,
+        "count": 2,
+        "total": 400
+      },
+      "recentfive": [
+        {
+          "symbol": "AMZN",
+          "buyprice": 200,
+          "id": "a082837e-e233-4842-92bb-03a4d09d90e3",
+          "count": 2,
+          "total": 400
+        }
+      ]
     }
   ],
   "transaction": [
     {
-      "id": "fbb49e76-2620-4980-ad73-e4f6e7a5ef42",
+      "id": "a082837e-e233-4842-92bb-03a4d09d90e3",
       "kind": "buy",
       "symbol": "AMZN",
       "name": "Amazon.com",
       "count": 2,
       "buyprice": 200,
-      "email": "test@gmail.com"
+      "email": "test@gmail.com",
+      "event": "userbuying"
     },
     {
-      "id": "4320d301-b209-4a73-9296-54f851bedb2b",
+      "id": "db4cc55d-eace-4799-9b0c-2356c8ddc584",
       "kind": "buy",
       "symbol": "AMZN",
       "name": "Amazon.com",
       "count": 2,
-      "buyprice": 200,
-      "email": "test@gmail.com"
+      "sellprice": 300,
+      "email": "test@gmail.com",
+      "event": "userselling"
     }
   ]
 }
