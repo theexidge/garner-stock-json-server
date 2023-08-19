@@ -86,7 +86,7 @@ server.post("/buystock", (req, res) => {
 
 server.post("/squareoff", (req, res) => {
   console.log(req.body);
-  const { id, type, email, sellPrice } = req.body;
+  const { id, type, email, sellPrice: sellprice } = req.body;
   let holdingObj = null;
   let index = null;
   let balanceObj = null;
@@ -102,14 +102,14 @@ server.post("/squareoff", (req, res) => {
 
   if (type == "virtual") {
     balanceObj = data["virtualwallet"].find((item) => item.id === email);
-    balanceObj.balance += (holdingObj.kind == "buy" ? sellPrice*holdingObj.count : (2*holdingObj.buyprice -sellPrice)*holdingObj.count);
+    balanceObj.balance += (holdingObj.kind == "buy" ? sellprice*holdingObj.count : (2*holdingObj.buyprice -sellprice)*holdingObj.count);
     balanceObj.invested -= holdingObj.buyprice * holdingObj.count;
     if (index > -1) {
       data["vholdings"].splice(index, 1);
     }
   } else {
     balanceObj = data["realwallet"].find((item) => item.id === email);
-    balanceObj.balance += (holdingObj.kind == "buy" ? sellPrice*holdingObj.count : (2*holdingObj.buyprice -sellPrice)*holdingObj.count);
+    balanceObj.balance += (holdingObj.kind == "buy" ? sellprice*holdingObj.count : (2*holdingObj.buyprice -sellprice)*holdingObj.count);
     balanceObj.invested -= holdingObj.buyprice * count;
     if (index > -1) {
       data["rholdings"].splice(index, 1);
@@ -121,7 +121,7 @@ server.post("/squareoff", (req, res) => {
     symbol: holdingObj.symbol,
     name: holdingObj.name,
     count: holdingObj.count,
-    sellprice: sellPrice,
+    sellprice: sellprice,
     email: holdingObj.email,
     event: "userselling",
   };
@@ -129,6 +129,68 @@ server.post("/squareoff", (req, res) => {
   fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
   res.status(200).json({ success: true, error: null, data: transactionData });
 });
+
+server.post("/signup", (req,res) => {
+  const {email, fname, lname, age, password, role} = req.body;
+  let check = data["users"].find((item) => item.email === email);
+  if(check){
+    res.status(401).json({success: false, error: "User Already exists"});
+  }
+  else{
+    let userData = {
+      id: email,
+      fname: fname,
+      email: email,
+      lname: lname,
+      age: age,
+      password: password,
+      role: role,
+      parentEmail: "",
+      childEmail: "",
+      maxLimit: 99999999,
+    };
+    data["users"].push(userData);
+    data["realwallet"].push({
+      id: email,
+      email: email,
+      balance: 0,
+      invested: 0,
+      recentstock: {},
+      recentfive: []
+    });
+    data["virtualwallet"].push({
+      id: email,
+      email: email,
+      balance: 10000,
+      invested: 0,
+      recentstock: {},
+      recentfive: []
+    });
+
+    res.status(201).json({ success: true, error: null, data: userData });
+  }
+});
+
+server.post("/login", (req,res) => {
+  const {email, password} = req.body;
+  let check = data["users"].find((item) => item.email === email);
+  if(check){
+    if(check.password == password){
+      res.status(200).json({success: true, error: "User Already exists", data: check});
+    }
+    else{
+      res.status(400).json({ success: false, error: "Wrong Password" });
+    }
+  }
+  else{
+    res.status(400).json({ success: false, error: "User Doesn't exist" });
+  }
+});
+
+server.patch("/setparent", (req,res) => {
+  const {email, parentEmail} = req.body;
+  
+})
 server.use(router);
 
 server.listen(3000, () => {

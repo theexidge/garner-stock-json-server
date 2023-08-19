@@ -9061,11 +9061,11 @@
   ],
   "vholdings": [
     {
-      "id": "5061f25c-869e-431b-8bee-a5cc525e9d0a",
+      "id": "0834fc69-883e-4a32-96fd-f79c420234e6",
       "email": "test@gmail.com",
       "name": "Amazon.com",
       "symbol": "AMZN",
-      "count": 2,
+      "count": 4,
       "buyprice": 200,
       "kind": "buy"
     }
@@ -9083,13 +9083,13 @@
   "virtualwallet": [
     {
       "id": "test@gmail.com",
-      "balance": 10000,
-      "invested": 400,
+      "balance": 9200,
+      "invested": 800,
       "recentstock": {
         "symbol": "AMZN",
         "buyprice": 200,
-        "count": 2,
-        "total": 400
+        "count": 4,
+        "total": 800
       },
       "recentfive": [
         {
@@ -9112,6 +9112,13 @@
           "id": "5061f25c-869e-431b-8bee-a5cc525e9d0a",
           "count": 2,
           "total": 400
+        },
+        {
+          "symbol": "AMZN",
+          "buyprice": 200,
+          "id": "0834fc69-883e-4a32-96fd-f79c420234e6",
+          "count": 4,
+          "total": 800
         }
       ]
     }
@@ -9166,6 +9173,25 @@
       "buyprice": 200,
       "email": "test@gmail.com",
       "event": "userbuying"
+    },
+    {
+      "id": "0834fc69-883e-4a32-96fd-f79c420234e6",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
+      "count": 4,
+      "buyprice": 200,
+      "email": "test@gmail.com",
+      "event": "userbuying"
+    },
+    {
+      "id": "35641e94-609b-4d9b-b258-bb760d2804d7",
+      "kind": "buy",
+      "symbol": "AMZN",
+      "name": "Amazon.com",
+      "count": 2,
+      "email": "test@gmail.com",
+      "event": "userselling"
     }
   ]
 }
