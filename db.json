@@ -5,8 +5,9 @@
       "fname": "Kanishk",
       "lname": "Sharma",
       "age": 20,
+      "childEmail":"",
       "parentEmail": "abc@gmail.com",
-      "role": "student",
+      "role": "parent",
       "maxLimit": 5000,
       "password": 123456
     }
@@ -9059,35 +9060,40 @@
   ],
   "vholdings": [
     {
-      "id": "test@gmail.com",
+      "id": "bewxw23",
+      "email": "test@gmail.com",
       "name": "Amazon.com",
       "symbol": "AMZN",
       "count": 2,
       "buyprice": 200
     },
     {
-      "id": "test@gmail.com",
+      "id": "28e3289d",
+      "email": "test@gmail.com",
       "name": "Apple Inc",
       "symbol": "AAPL",
       "count": 3,
       "buyprice": 400
     },
     {
-      "id": "test@gmail.com",
+      "id": "21eu283d",
+      "email": "test@gmail.com",
       "name": "Accenture Plc",
       "symbol": "ACN",
       "count": 3,
       "buyprice": 450
     },
     {
-      "id": "test@gmail.com",
+      "id": "1323ede2",
+      "email": "test@gmail.com",
       "name": "Airbnb, Inc",
       "symbol": "ABNB",
       "count": 3,
       "buyprice": 400
     },
     {
-      "id": "test1@gmail.com",
+      "id": "wawex2",
+      "email": "test@gmail.com",
       "name": "Amazon.com",
       "symbol": "AMZN",
       "count": 2,
@@ -9096,35 +9102,32 @@
   ],
   "rholdings": [
     {
-      "id": "test@gmail.com",
+      "id": "x1sewxe",
+      "email": "test@gmail.com",
       "name": "Amazon.com",
       "symbol": "AMZN",
       "count": 2,
       "buyprice": 200
     },
     {
-      "id": "test@gmail.com",
+      "id": "12sewx23",
+      "email": "test@gmail.com",
       "name": "Apple Inc",
       "symbol": "AAPL",
       "count": 3,
       "buyprice": 400
     },
     {
-      "id": "test@gmail.com",
-      "name": "Accenture Plc",
-      "symbol": "ACN",
-      "count": 3,
-      "buyprice": 450
-    },
-    {
-      "id": "test@gmail.com",
+      "id": "13dcx12",
+      "email": "test@gmail.com",
       "name": "Airbnb, Inc",
       "symbol": "ABNB",
       "count": 3,
       "buyprice": 400
     },
     {
-      "id": "test1@gmail.com",
+      "id": "x2edx1",
+      "email": "test@gmail.com",
       "name": "Airbnb, Inc",
       "symbol": "ABNB",
       "count": 3,
@@ -9133,10 +9136,10 @@
   ],
   "realwallet": [
     {
-      "id": "test@gmail.com",
+      "id": "ws13s233",
       "balance": 403000.65,
       "invested": 80405.69,
-      "topstock": {
+      "recentstock": {
         "symbol": "NFLX",
         "iValue": 25.69,
         "cvalue": 169.69
@@ -9149,7 +9152,7 @@
       "intialcurrency": 40000000,
       "balance": 40300.6,
       "invested": 80405.69,
-      "topstock": {
+      "recentstock": {
         "symbol": "NFLX",
         "iValue": 25.69,
         "cvalue": 169.69
