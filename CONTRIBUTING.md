@@ -136,24 +136,26 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/theexi
 ### Your First Code Contribution
 <!-- TODO
 include Setup of env, IDE and typical getting started instructions?
-
 -->
+- Welcome to our open-source repository! We're delighted to have you on board and eager to see your first code contribution. Whether you're a seasoned developer or new to the open-source community, we value your unique perspective and ideas. Feel free to explore the codebase, ask questions, and share your thoughts. Remember, collaboration and learning from each other are the cornerstones of open-source. Take a leap of faith, trust in your abilities, and let's create something remarkable together. We can't wait to witness the positive impact of your first contribution within our vibrant community. 
+> Happy coding!
 
 ### Improving The Documentation
-<!-- TODO
-Updating, improving and correcting the documentation
 
--->
+- Welcome to the world of documentation improvement! We value your enthusiasm in enhancing our open-source project's documentation and making it even better for our community. Clear and comprehensive documentation is key to the success of any project, and your contributions in this area will have a positive impact on users of all skill levels.
+- As you embark on this journey, remember to approach it with a friendly and inclusive mindset. Consider the needs of both beginners and advanced users, and feel free to suggest clarifications, examples, or new sections that could improve overall understanding. If you spot any inconsistencies or areas that require further clarification, please don't hesitate to bring them to our attention.
+- Together, we can build a stronger, more accessible documentation resource. Your attention to detail and dedication will make a significant difference. Thank you for your commitment to enhancing our project's documentation, and we look forward to working alongside you to create an invaluable asset for our community.
 
 ## Styleguides
-### Commit Messages
-<!-- TODO
 
--->
+### Commit Messages
+- Clear and concise commit messages are vital for effective collaboration. They provide valuable context and facilitate understanding of code changes. Please maintain a formal yet friendly tone in your messages to foster a positive and inclusive community. Describe the problem or feature, explain the motivation, and consider referencing relevant numbers.
+- By following these guidelines, you'll help establish a traceable commit history that benefits our project's development. Thank you for your attention to detail and commitment to clear communication. Let's make each commit message count on our collaborative journey!
 
 ## Join The Project Team
-<!-- TODO -->
-
 <!-- omit in toc -->
+> Excited to join our open-source repository's project team? We'd love to have you on board! To express your interest, please email us at admin@exidge.com with the subject line "Joining the Garner Team." In your email, briefly introduce yourself, highlighting your relevant skills and previous open-source contributions. Our team values diversity, inclusivity, and respectful communication, creating a supportive environment for everyone's ideas.
+> We can't wait to hear from you and collaborate on making a meaningful impact in the open-source community!
+
 ## Attribution
-This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+This guide is based on the **contributing-gen**.
