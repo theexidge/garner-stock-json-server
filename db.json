@@ -9136,7 +9136,7 @@
   ],
   "realwallet": [
     {
-      "id": "ws13s233",
+      "id": "test@gmail.com",
       "balance": 403000.65,
       "invested": 80405.69,
       "recentstock": {
@@ -9149,8 +9149,7 @@
   "virtualwallet": [
     {
       "id": "test@gmail.com",
-      "intialcurrency": 40000000,
-      "balance": 40300.6,
+      "balance": 40000000,
       "invested": 80405.69,
       "recentstock": {
         "symbol": "NFLX",
