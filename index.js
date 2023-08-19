@@ -189,7 +189,18 @@ server.post("/login", (req,res) => {
 
 server.patch("/setparent", (req,res) => {
   const {email, parentEmail} = req.body;
+  try {
+    let childObj = data["users"].find((item) => item.email === email);
+    let parentObj = data["users"].find((item) => item.email === parentEmail);
   
+    childObj.parentEmail = parentEmail;
+    parentObj.childEmail = childEmail;
+  
+    fs.writeFileSync("db.json", JSON.stringify(data, null, 2));
+    res.status(200).json({ success: true, error: null, data: "Modified Successfully" });
+  } catch (error) {
+    res.status(500).json({ success: false, error: "Internal Server Error" });
+  }
 })
 server.use(router);
 
