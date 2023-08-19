@@ -1,0 +1,22 @@
+{
+  "name": "garner-stock-json-server",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img src=\"/Images/garner.png\" alt=\"Image Description\" width=\"300\">\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theexidge/garner-stock-json-server.git"
+  },
+  "author": "Exidge",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theexidge/garner-stock-json-server/issues"
+  },
+  "homepage": "https://github.com/theexidge/garner-stock-json-server#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
