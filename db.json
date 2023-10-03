@@ -23,6 +23,18 @@
       "parentemail": "test2@gmail.com",
       "childemail": "",
       "maxLimit": 99999999
+    },
+    {
+      "id": "sample@gmail.com",
+      "fname": "Test1",
+      "email": "sample@gmail.com",
+      "lname": "test",
+      "age": 18,
+      "password": "123456",
+      "role": "parent",
+      "parentemail": "",
+      "childemail": "test7@gmail.com",
+      "maxLimit": 99999999
     }
   ],
   "stocks": [
